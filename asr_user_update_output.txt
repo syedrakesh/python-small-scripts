@@ -1,0 +1,33 @@
+UPDATE t_asset_service_requests tasr
+SET tasr.user_id = 327
+WHERE
+(tasr.dam_asr_id = 'SR000001483') OR
+(tasr.dam_asr_id = 'SR000001312') OR
+(tasr.dam_asr_id = 'SR000001332') OR
+(tasr.dam_asr_id = 'SR000001316') OR
+(tasr.dam_asr_id = 'SR000001474') OR
+(tasr.dam_asr_id = 'SR000001319') OR
+(tasr.dam_asr_id = 'SR000001334') OR
+(tasr.dam_asr_id = 'SR000001477') OR
+(tasr.dam_asr_id = 'SR000001330') OR
+(tasr.dam_asr_id = 'SR000001283') OR
+(tasr.dam_asr_id = 'SR000001280') OR
+(tasr.dam_asr_id = 'SR000001174') OR
+(tasr.dam_asr_id = 'SR000001173') OR
+(tasr.dam_asr_id = 'SR000001179') OR
+(tasr.dam_asr_id = 'SR000001178') OR
+(tasr.dam_asr_id = 'SR000001177') OR
+(tasr.dam_asr_id = 'SR000001176') OR
+(tasr.dam_asr_id = 'SR000001082') OR
+(tasr.dam_asr_id = 'SR000001092') OR
+(tasr.dam_asr_id = 'SR000001039') OR
+(tasr.dam_asr_id = 'SR000001035') OR
+(tasr.dam_asr_id = 'SR000001041') OR
+(tasr.dam_asr_id = 'SR000001032') OR
+(tasr.dam_asr_id = 'SR000001044') OR
+(tasr.dam_asr_id = 'SR000001087') OR
+(tasr.dam_asr_id = 'SR000001062') OR
+(tasr.dam_asr_id = 'SR000001029') OR
+(tasr.dam_asr_id = 'SR000001093') OR
+(tasr.dam_asr_id = 'SR000001089') OR
+(tasr.dam_asr_id = 'SR000001090');
