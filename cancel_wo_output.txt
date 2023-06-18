@@ -1,0 +1,3 @@
+UPDATE t_workorders dtw
+SET dtw.wo_status = 6, dtw.wo_remarks = 'Cancelled by Admin Manually'
+WHERE
