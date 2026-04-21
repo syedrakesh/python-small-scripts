@@ -1,8 +1,8 @@
 import os
 
 # Set the paths for the video and subtitle folders
-video_folder = r"/home/rakesh/Desktop/Shared/MovieLinkBD.com - ONE.PIECE.S01.Ep[1-8].1080p.AAC.h265.Multi[Hindi-English-Japanese].COMPLETED"
-subtitle_folder = r"/home/rakesh/Desktop/Shared/MovieLinkBD.com - ONE.PIECE.S01.Ep[1-8].1080p.AAC.h265.Multi[Hindi-English-Japanese].COMPLETED/ONE_PIECE - season 1.en"
+video_folder = r"/home/rakesh/Desktop/ONE.PIECE.S01.Ep[1-8].1080p.AAC.h265.Multi[Hindi-English-Japanese].COMPLETED"
+subtitle_folder = r"/home/rakesh/Desktop/ONE.PIECE.S01.Ep[1-8].1080p.AAC.h265.Multi[Hindi-English-Japanese].COMPLETED/Subs"
 
 # Function to rename subtitles based on the video file name
 def rename_subtitles():
